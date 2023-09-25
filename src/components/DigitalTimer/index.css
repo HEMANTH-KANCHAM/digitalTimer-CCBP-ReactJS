@@ -1,0 +1,125 @@
+/* Hex: #cffcf1
+Hex: #1e293b
+Hex: #0f172a
+Hex: #defafe
+Hex: #00d9f5 */
+
+.app-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.digital-timer-heading {
+  margin-bottom: 30px;
+}
+.digital-timer-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.timer-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  width: 65%;
+  height: 500px;
+  margin-right: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-container {
+  background-color: #defafe;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  color: #00d9f5;
+  font-size: 40px;
+  margin: 0px;
+  font-weight: 500;
+}
+.timer-status {
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.operations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play-reset-container {
+  display: flex;
+}
+.play-pause-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+.play-reset-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin-right: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+.play-pause-icon {
+  height: 30px;
+  width: 30px;
+}
+.play-pause-text {
+  font-size: 26px;
+  font-weight: 500;
+  align-self: center;
+}
+.timer-limit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.increase-decrease-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.increase-decrease-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 35px;
+  height: fit-content;
+}
+.timer-limit {
+  /* height: 30px;
+  width: 50px; */
+  padding: 8px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, lightgreen, rgb(69, 223, 243));
+}
